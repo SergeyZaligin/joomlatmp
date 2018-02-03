@@ -1,1 +1,1 @@
-<h1>Базовая структура для template Joomla 3</h1>
+<h1>Установочный шаблон для template CMS JOOMLA 3</h1>
