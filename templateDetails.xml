@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="template">
+	<name>Base template for Joomla3</name>
+	<version>1.0.0</version>
+	<creationDate>03.02.2018</creationDate>
+	<author>Zaligin Sergey Victorovich</author>
+	<authorMail>cplusplusjs@gmail.com</authorMail>
+	<authorUrl>http://agencytop.ru</authorUrl>
+	<copyright>Copyright (C) tmp</copyright>
+	<license>GPL</license>
+	<description>Базовый шаблон для Joomla 3</description>
+	
+	<files>
+		
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>images</folder>
+		<folder>html</folder>
+		<folder>language</folder>
+		
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		
+	</files>
+	
+	<positions>
+		
+		<position>Header-0</position>
+		<position>MainSlider-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		
+	</positions>
+	
+	<config>
+		
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="site_logo" 
+					type="media" 
+					label="Логотип" 
+					description="Описание">
+					
+				</field>
+				
+				<field name="site_name" 
+					type="text" 
+					label="Введите название" 
+					description="Название сайта">
+					
+				</field>
+				
+				<field name="site_desc" 
+					type="textarea" 
+					label="Описание" 
+					description="Описание">
+					
+				</field>
+				
+				
+				
+				
+			</fieldset>
+		</fields>
+		
+	</config>
+	
+</extension>
